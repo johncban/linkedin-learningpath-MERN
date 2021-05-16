@@ -1,0 +1,32 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "test exercise project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "nodemonthis": "nodemon ./index.js --exec babel-node -e js",
+    "createangapp": "npx -p @angular/cli ng new myapp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.6.0",
+    "nodemon": "^2.0.7",
+    "parsejson": "^0.0.3",
+    "path": "^0.12.7",
+    "socketio": "^1.0.0",
+    "ts-node": "^9.1.1",
+    "xmlhttprequest-ssl": "^1.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
